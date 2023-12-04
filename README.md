@@ -6,6 +6,7 @@ Cara Install:
 3. Untuk menjalankan folder 'be' yaitu dengan cara Run 'nodemon index'
 
 
+
 ## Tambahkan file .env pada setiap folder
 1. Pada folder fe buatlah file '.env' dengan kode di bawah ini
    REACT_APP_BASE_URL = http://localhost:5000
