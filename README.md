@@ -7,4 +7,9 @@ Cara Install:
 4. Rename folder 'test.env' menjadi '.env'
 
 
-Pada folder 'update-masih-error.zip' kami mencoba untuk merombak beberapa isi code untuk menyesuaikan fitur yang diminta oleh Client. Tetapi untuk sampai tahapan step by step proses ke dalam task masih gagal atau masih error.
+Pada folder 'update-masih-error.zip' kami mencoba untuk merombak beberapa isi code untuk menyesuaikan fitur yang diminta oleh Client. Tetapi untuk sampai tahapan step by step proses ke dalam task masih gagal atau masih error. Untuk database yang dipakai pada folder error ini adalah 'new_db.sql'
+
+# Permintaan Client
+1. Model : (Kode model dapat di kustom) 
+2. Customer : (AHM, Suzuki, Kawasaki, Piaggio) 
+3. Dashboard judul detail (Dashboard MF2W Customer Model) (Berdasarkan customer dan model) 
