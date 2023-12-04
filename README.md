@@ -1,4 +1,4 @@
-# Internship
+# Intern
 
 Cara Install:
 1. Run 'npm install' terlebih dahulu pada folder fe dan be
