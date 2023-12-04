@@ -13,4 +13,4 @@ Pada folder 'update-masih-error.zip' kami mencoba untuk merombak beberapa isi co
 1. Tambah menu Model : (Kode model dapat di kustom) 
 2. Customer : (AHM, Suzuki, Kawasaki, Piaggio) 
 3. Dashboard judul detail (Dashboard MF2W - nama Customer - nama Model) (Berdasarkan customer dan model)
-4. Workflow kurang lebih seperti ini (Menu model > menu part > detail proses)
+4. Workflow kurang lebih seperti ini (Menu model list > menu model part list > detail proses)
