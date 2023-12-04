@@ -1,0 +1,76 @@
+// Create User
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "admin",
+    "email": "admin@email.com",
+    "password": "admin",
+    "confPassword": "admin",
+    "role": "admin"
+}
+
+###
+// Get All User
+GET http://localhost:5000/users
+
+
+###
+// Get Single User
+
+GET http://localhost:5000/users/8db05225-ee68-48a7-ba60-604b1321a568
+
+###
+// Update User
+PATCH  http://localhost:5000/users/47922582-51a7-42a6-8958-78fc9f626700
+Content-Type: application/json
+
+{
+    "name": "John M",
+    "email": "john@email.com",
+    "password": "",
+    "confPassword": "",
+    "role": "user"
+}
+
+### Delete User
+DELETE http://localhost:5000/users/0698f1f9-0a61-4157-80ab-5be0cc83ce17
+
+
+
+###
+GET http://localhost:5000/me
+
+### Logout
+DELETE http://localhost:5000/logout
+
+### Login User
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "admin@email.com",
+    "password": "admin"
+}
+
+### Get All Task
+GET http://localhost:5000/tasks/
+
+### 
+// POST Data Task
+POST http://localhost:5000/tasks
+Content-Type: application/json
+
+{
+    "name": "Inspeksi Ban",
+    "startDate": "2023-09-26",
+    "endDate" : "2023-09-27",
+    "user": {
+      "name": "John M",
+      "email": "john@email.com"
+    }
+}
+
+
+### Get All Task
+GET http://localhost:5000/tasks/9731b135-e9d0-4d9c-a895-d008a1d5d46d
